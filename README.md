@@ -1,34 +1,9 @@
-# modules-tool
+### modules-tool
+一个通过拖拽来生成网页的编辑工具。
 
-## Project setup
-```
-npm install
-```
+基于vue-cli3.0脚手架开发，v1.0已实现编辑器的基本功能，每个组件添加了基础属性(宽高、位置、图层等)，v2.0将实现行为和组件间的交互功能。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+特点：有基础组件和业务组件两种，业务组件可通过vue-cli中library模式或其他方式打包后的静态文件（一般是umd模式），将umd.js、css以及图片资源引入业务组件中即可实现业务组件的生成。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+运行：npm i/npm run serve
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
